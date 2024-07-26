@@ -31,7 +31,7 @@ endif()
 
 include(${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake)
 include_directories(${VCPKG_INCLUDE_DIRS})
-add_subdirectory(Xviz2d)
+add_subdirectory(Xviz)
 include_directories(${CMAKE_BINARY_DIR}/build/include)
 
 
